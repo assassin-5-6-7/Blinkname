@@ -1,0 +1,92 @@
+void setup() {
+    pinMode(D7, OUTPUT);
+
+}
+
+void loop() {
+    //Y(LDLL)
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    //U(DDL)
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    //X(LDDL)
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    //I(DD)
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    //N(LD)
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    //G(LLD)
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(333);
+    digitalWrite(D7, HIGH);
+    delay(333);
+    digitalWrite(D7, LOW);
+    delay(5000);
+    
+    
+    
+    
+    
+    
+
+}
